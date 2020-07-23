@@ -3,255 +3,323 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href =./css/normalize.css />
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
   </head>
   <body>
     <header class="page-header">
       <nav class="navigation">
-        <a href="./" class="logo"
-          ><img src=./images/logo/logo.svg alt="Логотип" /></a
-        >
+        <a href="./"><img src="./images/logo/logo.svg" alt="Логотип" /></a>
 
         <ul class="list menu-list">
-          <li class="menu-item"><a href="#" class="menu-link">Студия</a></li>
-          <li class="menu-item"><a href="#" class="menu-link">Портфолио</a></li>
-          <li class="menu-item"><a href="#" class="menu-link">Контакты</a></li>
+          <li class="list-item"><a href="#" class="link-item">Студия</a></li>
+          <li class="list-item">
+            <a href="./portfolio.html" class="link-item">Портфолио</a>
+          </li>
+          <li class="list-item"><a href="#" class="link-item">Контакты</a></li>
         </ul>
-        <a href="tel:+380961111111" class="contacts-link">+38 096 111 11 11</a>
-        <a href="mailto:info@devstudio.com" class="contacts-link"
+
+        <a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a>
+        <a href="mailto:info@devstudio.com" class="contacts"
           >info@devstudio.com</a
         >
       </nav>
     </header>
     <main>
+      <section class="hero">
+        <img src="#" alt="баннер" />
+        <h1 class="page-title">Эффективные решения для вашего бизнеса</h1>
+        <a href="#" class="btn">Заказать услугу</a>
+      </section>
       <section>
-        <h1 class="page-title" hidden>Обзор вкладок</h1>
+        <h2 class="section-title" hidden>Описание работы</h2>
         <ul class="list">
-          <li><button class="btn" type="button">Все</button></li>
-          <li><button class="btn" type="button">Веб-сайты</button></li>
-          <li><button class="btn" type="button">Приложения</button></li>
-          <li><button class="btn" type="button">Дизайн</button></li>
-          <li><button class="btn" type="button">Маркетинг</button></li>
+          <li>
+            <img src="#" alt="спутник" />
+            <h3 class="icon-title">Внимание к деталям</h3>
+            <p>
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li>
+            <img src="#" alt="часы" />
+            <h3 class="icon-title">Пунктуальность</h3>
+            <p>
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li>
+            <img src="#" alt="график" />
+            <h3 class="icon-title">Планирование</h3>
+            <p>
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li>
+            <img src="#" alt="космонавт" />
+            <h3 class="icon-title">Современные технологии</h3>
+            <p>
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
         </ul>
-
+      </section>
+      <section>
+        <h2 class="section-title">Чем мы занимаемся</h2>
         <ul class="list">
           <li>
-            <a href="#" class="page-title"
-              ><img
-                src="./images/links/notebook.jpg"
-                alt="Технокряк"
-                width="370"
-              />
-              <p class="p-description">
-                Технокряк это современная <br />
-                площадка распространения <br />
-                коронавируса. Компании <br />
-                используют эту платформу для <br />
-                цифрового шпионажа и атак на <br />
-                защищенные сервера конкурентов.
-              </p>
-
-              <h2 class="page-title">Технокряк</h2>
-              <p class="p-sections">Веб-сайт</p>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="page-title">
+            <a href="#">
               <img
-                src="./images/links/poster.jpg"
-                alt="Постер New Orlean"
+                src="./images/description_of_work/laptop.png"
+                alt="laptop"
                 width="370"
               />
-              <p class="p-description">
-                Технокряк это современная <br />
-                площадка распространения <br />
-                коронавируса. Компании <br />
-                используют эту платформу для <br />
-                цифрового шпионажа и атак на <br />
-                защищенные сервера конкурентов.
-              </p>
-
-              <h2 class="page-title">Постер New Orlean vs Golden Star</h2>
-              <p class="p-sections">Дизайн</p>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="page-title">
-              <img
-                src="./images/links/seafood.jpg"
-                alt="Ресторан Seafood"
-                width="370"
-              />
-              <p class="p-description">
-                Технокряк это современная <br />
-                площадка распространения <br />
-                коронавируса. Компании <br />
-                используют эту платформу для <br />
-                цифрового шпионажа и атак на <br />
-                защищенные сервера конкурентов.
-              </p>
-
-              <h2 class="page-title">Ресторан Seafood</h2>
-              <p class="p-sections">Приложение</p>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="page-title">
-              <img
-                src="./images/links/headphone.jpg"
-                alt="Проект Prime"
-                width="370"
-              />
-              <p class="p-description">
-                Технокряк это современная <br />
-                площадка распространения <br />
-                коронавируса. Компании <br />
-                используют эту платформу для <br />
-                цифрового шпионажа и атак на <br />
-                защищенные сервера конкурентов.
-              </p>
-
-              <h3 class="page-title">Проект Prime</h3>
-              <p class="p-sections">Маркетинг</p>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="page-title">
-              <img
-                src="./images/links/boxes.jpg"
-                alt="Проект Boxex"
-                width="370"
-              />
-              <p class="p-description">
-                Технокряк это современная <br />
-                площадка распространения <br />
-                коронавируса. Компании <br />
-                используют эту платформу для <br />
-                цифрового шпионажа и атак на <br />
-                защищенные сервера конкурентов.
-              </p>
-
-              <h2 class="page-title">Проект Boxex</h2>
-              <p class="p-sections">Приложение</p>
+              <h3 class="img-title">Десктопные приложения</h3>
             </a>
           </li>
           <li>
-            <a href="#" class="page-title">
+            <a href="#">
               <img
-                src="./images/links/screen.jpg"
-                alt="Inspiration as no borders"
+                src="./images/description_of_work/phone.png"
+                alt="mobile"
                 width="370"
               />
-              <p class="p-description">
-                Технокряк это современная <br />
-                площадка распространения <br />
-                коронавируса. Компании <br />
-                используют эту платформу для <br />
-                цифрового шпионажа и атак на <br />
-                защищенные сервера конкурентов.
-              </p>
-              <h2 class="page-title">Inspiration as no borders</h2>
-              <p class="p-sections">Веб-сайт</p>
+              <h3 class="img-title">Мобильные приложения</h3>
             </a>
           </li>
           <li>
-            <a href="#" class="page-title">
+            <a href="#">
               <img
-                src="./images/links/book.jpg"
-                alt="Издание Limited Edition"
+                src="./images/description_of_work/monitor.png"
+                alt="screen"
                 width="370"
               />
-              <p class="p-description">
-                Технокряк это современная <br />
-                площадка распространения <br />
-                коронавируса. Компании <br />
-                используют эту платформу для <br />
-                цифрового шпионажа и атак на <br />
-                защищенные сервера конкурентов.
-              </p>
-
-              <h2 class="page-title">Издание Limited Edition</h2>
-              <p class="p-sections">Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="page-title">
-              <img
-                src="./images/links/imglabeltag.jpg"
-                alt="Проект LAB"
-                width="370"
-              />
-              <p class="p-description">
-                Технокряк это современная <br />
-                площадка распространения <br />
-                коронавируса. Компании <br />
-                используют эту платформу для <br />
-                цифрового шпионажа и атак на <br />
-                защищенные сервера конкурентов.
-              </p>
-
-              <h2 class="page-title">Проект LAB</h2>
-              <p class="p-sections">Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="page-title">
-              <img
-                src="./images/links/imglaptop.jpg"
-                alt="Growing Business"
-                width="370"
-              />
-              <p class="p-description">
-                Технокряк это современная <br />
-                площадка распространения <br />
-                коронавируса. Компании <br />
-                используют эту платформу для <br />
-                цифрового шпионажа и атак на <br />
-                защищенные сервера конкурентов.
-              </p>
-
-              <h2 class="page-title" lang="en">Growing Business</h2>
-              <p class="p-sections">Приложение</p>
+              <h3 class="img-title">Дизайнерские решения</h3>
             </a>
           </li>
         </ul>
       </section>
-    </main>
-    <footer>
-      <div class="color-footer">
-        <section>
-          <h2 class="page-title" hidden>Контакты</h2>
-          <a href="./" class="logo"
-            ><img src=./images/logo/logo.svg alt="Логотип" /></a
-          >
-          <address>
-            <ul class="list contacts-footer">
-              <li class="contact-items">
+      <section class="our-team-color">
+        <h2 class="section-title">Наша команда</h2>
+        <ul class="list">
+          <li class="item-team-list">
+            <img
+              src="./images/our_team/nikolai.jpg"
+              alt="Николай Кучеренко"
+              width="270"
+            />
+            <h3 class="title-h3">Николай Кучеренко</h3>
+            <p lang="en">Product Designer</p>
+            <ul class="list">
+              <li>
                 <a
-                  href="https://goo.gl/maps/zqUBnES2cwS98cau7"
-                  class="footer-links"
+                  href="https://www.instagram.com/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="ссылка Инстаграм"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка Твиттер"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка Фейсбук"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка Линкедин"
+                ></a>
+              </li>
+            </ul>
+          </li>
+          <li class="item-team-list">
+            <img
+              src="./images/our_team/olga.png"
+              alt="Ольга Иванова"
+              width="270"
+            />
+            <h3 class="title-h3">Ольга Иванова</h3>
+            <p lang="en">Frontend Developer</p>
+            <ul class="list">
+              <li>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка Инстаграм"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка Твиттер"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка Фейсбук"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка Линкедин"
+                ></a>
+              </li>
+            </ul>
+          </li>
+          <li class="item-team-list">
+            <img
+              src="./images/our_team/andrew.png"
+              alt="Андрей Шевченко"
+              width="270"
+            />
+            <h3 class="title-h3">Андрей Шевченко</h3>
+            <p lang="en">Marketing</p>
+            <ul class="list">
+              <li>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка Инстаграм"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка Твиттер"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка Фейсбук"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка Линкедин"
+                ></a>
+              </li>
+            </ul>
+          </li>
+          <li class="item-team-list">
+            <img
+              src="./images/our_team/ivan.png"
+              alt="Иван Николаев"
+              width="270"
+            />
+            <h3 class="title-h3">Иван Николаев</h3>
+            <p lang="en">UI Designer</p>
+            <ul class="list">
+              <li>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка Инстаграм"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка Твиттер"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка Фейсбук"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка Линкедин"
+                ></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2 class="section-title">Постоянные клиенты</h2>
+        <a href="#"><img src="#" alt="" /></a>
+        <a href="#"><img src="#" alt="" /></a>
+        <a href="#"><img src="#" alt="" /></a>
+        <a href="#"><img src="#" alt="" /></a>
+        <a href="#"><img src="#" alt="" /></a>
+        <a href="#"><img src="#" alt="" /></a>
+      </section>
+    </main>
+    <footer>
+      <div class="foot-color">
+        <section>
+          <h2 class="section-title" hidden>Контакты</h2>
+          <a href="./"
+            ><img src="./images/logo/logo-footer.svg" alt="Логотип"
+          /></a>
+          <address>
+            <ul class="list">
+              <li>
+                <a
+                  href="https://goo.gl/maps/zqUBnES2cwS98cau7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="map-color"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="contact-items">
-                <a href="tel:+380991111111" class="grey-footer-links"
+              <li>
+                <a href="tel:+380991111111" class="contact-color"
                   >+38 099 111 11 11</a
                 >
               </li>
-              <li class="contact-items">
-                <a href="mailto:info@example.com" class="grey-footer-links"
+              <li>
+                <a href="mailto:info@example.com" class="contact-color"
                   >info@example.com</a
                 >
               </li>
@@ -259,7 +327,7 @@
           </address>
         </section>
         <div>
-          <p class="join-us">Присоединяйтесь</p>
+          <p class="join">Присоединяйтесь</p>
           <ul class="list">
             <li>
               <a
